@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900');
+$family_sans_serif: "Nunito", sans-serif;
+
+// Update some of Bulma's component variables
+$control_border_width: 2px;
+$input_border_color: transparent;
+$input_shadow: none;
+
+html,body{
+  height: 100%;
+}
+html{
+  background-image: url('./assets/images/background.svg');
+  background-size: cover;
+  overflow-y: auto;
+}
